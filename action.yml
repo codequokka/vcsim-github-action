@@ -12,4 +12,4 @@ runs:
   image: vmware/vcsim:latest
   args:
     - -l 0.0.0.0:8989
-    - -apiversion ${{ inputs.api-version }}
+    # - -apiversion ${{ inputs.api-version }}
